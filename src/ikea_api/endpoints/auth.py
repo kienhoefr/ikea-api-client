@@ -14,8 +14,7 @@ class Auth(BaseIkeaAPI):
             {
                 "Accept": "*/*",
                 "Accept-Language": "en-us",
-                "X-Client-Id": "e026b58d-dd69-425f-a67f-1e9a5087b87b",
-                "X-Client-Secret": "cP0vA4hJ4gD8kO3vX3fP2nE6xT7pT3oH0gC5gX6yB4cY7oR5mB",
+                "X-Client-Id": "b477b9e4-b836-40fb-842f-43db89dd3c52",
             }
         )
         return SessionInfo(base_url=url, headers=headers)

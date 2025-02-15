@@ -1,4 +1,4 @@
-The project is archived.
+The upstream project is archived. This fork updates some constants that changed on IKEAs website.
 
 ---
 
