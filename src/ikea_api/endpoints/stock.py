@@ -27,3 +27,12 @@ class Stock(BaseIkeaAPI):
         }
         response = yield self._RequestInfo("GET", params=params)
         return response.json
+
+    @endpoint(handlers=[handle_json_decode_error, handle_graphql_error])
+    def get_online_stock(self, item_code: str, zip_code: str) -> Endpoint[dict[str, Any]]:
+        params = {
+            "itemNos": [item_code],
+            "zip": [zip_code]
+        }
+        response = yield self._RequestInfo("GET", params=params)
+        return response.json
