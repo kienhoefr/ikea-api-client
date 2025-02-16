@@ -24,6 +24,7 @@ from ikea_api.executors.httpx import run_async as run_async
 from ikea_api.executors.requests import run as run
 from ikea_api.utils import format_item_code as format_item_code
 from ikea_api.utils import parse_item_codes as parse_item_codes
+from ikea_api.stores import stores as stores
 
 try:
     import pydantic  # type: ignore

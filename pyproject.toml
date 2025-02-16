@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ikea_api"
-version = "2.4.2"
+version = "2.4.3"
 description = "The package is archived. Client for several IKEA's APIs"
 authors = ["Lev Vereshchagin <mail@vrslev.com>"]
 license = "MIT"
